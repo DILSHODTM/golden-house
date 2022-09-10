@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoimg {
+    width: 75px;
+    height: 50px;
+}
+
+.navbar {
+    width: 1560px;
+    height:68px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.logoul {
+    display: flex;
+text-decoration: none;
+    list-style: none;
+
+}
+.logo{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+}
+
+.linav{
+    padding: 0 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px
+}
+.cbtn{
+width: 182px;
+height: 50px;
+background-color:#316499;
+color: aliceblue;
+border-radius: 20px;
+}
+.mains{
+    padding: 0;
+    margin: 0;
+    display: flex;
+width: 1580px;
+height: 650px;
+background: rgba(49, 100, 153, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 150px;
+}
+.co1{
+   
+    width: 589px;
+    height: 472px;
+  
+}
+.find{
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: -40px;
+    
+}
+.p2p{
+   padding: 25px;
+   margin: 15px;
+  width: 500px;
+  font-size: 30px;
+    
+    color:rgb(100, 126, 160);
+
+}
+.mainp{
+    height: 472px;
+
+}
+.ours{
+    margin: 0 39%;
+    width:480px;
+    height:  60px;
+
+    text-align: center;
+    justify-content: center;
+}
+.sec1{
+    margin-top: 50px;
+    height: 595px;
+    width: auto;
+    padding: 5px;
+    display: flex;
+}
+.sec1r{
+    border: 2px solid black;
+    border-radius: 50px 0px 0px 0px;
+    box-shadow: 5px 5px 5px;
+    height: 500px;
+    width: 480px;
+
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home {
+    margin: 0 35%;
+    border: 5px solid #316398;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+   
+}
+.homes{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.sec1h{
+    font-size: 35px;
+}
+.new{
+
+width:480px;
+height:  60px;
+font-size: 40px;
+text-align: center;
+justify-content: center;
+}
+.hom{
+    justify-content: center;
+    width: 380px;
+    height: 500px;
+    margin: 10px 10%;
+
+}
+.icomap{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.pp2{
+    padding: 25px;
+    margin: 15px;
+   width: 500px;
+   font-size: 30px;
+     
+     color:rgb(100, 126, 160);
+ 
+ }
+ .sebtn{
+    width:480px;
+    height:  60px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 34%;
+}
+.cbtn2{
+    width: 182px;
+    height: 50px;
+    background-color:#58e296;
+    color: aliceblue;
+    border-radius: 20px;
+    }
+    .sec2{
+        margin-top: 50px;
+        height: 595px;
+        width: auto;
+        padding: 5px;
+        display: flex;
+    }
+    .sec2r{
+        border-radius: 50px 0px 0px 0px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px;
+        height: 800px;
+        width: 480px;
+    
+    
+        margin: 150px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .hom2{
+        justify-content: center;
+        width: 480px;
+        height: 500px;
+        border-radius: 50px 0px 0px 0px;
+    
+    }
+    .more{
+        color:white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;font-family: sans-serif;
+
+    }
+    .nav-link:hover {
+        color: rgb(92, 15, 61);
+        transition: all 1s ease;
+        font-size: 50px;
+    
+    
+    
+    }
+    .more:hover {
+        color: rgb(68, 0, 255);
+        transition: all 1s ease;
+        font-size: 20px;
+    
+    
+    
+    } .cbtn:hover {
+        color: rgb(68, 0, 255);
+        transition: all 1s ease;
+        font-size: 20px;
+        background-color:aliceblue;
+    
+    
+    
+    }
+    .cbtn2:hover {
+        color: rgb(68, 0, 255);
+        transition: all 1s ease;
+        font-size: 20px;
+        background-color:aliceblue;
+    
+    
+    
+    } 
+    .sec1r:hover {
+        color: rgb(206, 4, 4);
+        transition: all 1s ease;
+        font-size: 20px;
+        background-color:silver;
+        width: 520px;
+        height: 500px;
+    
+    
+    
+    }
+    .contactinfo{
+        position: relative;
+   text-align: center;
+        top: 500px;
+    }
+    .mainsco{
+        font-size: 50px;
+    }
+    .cont{
+        width: 1480px;
+        height: 600px;
+        position: relative;
+        left: 50px;
+        top: 600px;  
+         display: flex;
+    }
+    .c1nt{
+        width: 472px;
+        height: 580px;
+        background-color: white ;
+     margin: 10px;
+     box-shadow: 5px 5px 5px;
+     border-radius: 5px;
+     border: 2px solid;
+    }
+    .contimg{
+        
+
+    }
+    .p2{
+        padding: 25px;
+        margin: 15px;
+       width: 450px;
+       font-size: 30px;
+         
+         color:rgb(100, 126, 160);
+     
+     }
+     .c1nt:hover{
+        background-color: silver;
+     }
+     .e001{
+
+     }
+     .e001:hover {
+        width: 50px;
+
+     }
+
+
+
+
+
+
+
+
+    .footer__bgc {
+        background-color:  #295093;
+        position: relative;
+        bottom:-650px;
+        width: 1583px;
+        height: 350px;
+    }
+    .foot1{
+    width: 400px;
+    height: 300px;
+       display: flex;
+    }
+    .foot1h{
+        padding: 150px;
+        font-size: 30px;
+        color:antiquewhite;
+    }
+    .foot2{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        left: 450px;
+        top: -250px;
+    }
+    .foot2h{
+        font-size: 40px;
+        color:antiquewhite;
+    }
+    .pfoot{
+ font-size: 25px;
+ margin-top: 18px;
+ color:antiquewhite;
+    }
+    .foot3{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        left: 850px;
+        top: -550px;
+    }
+    .foot4{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        left: 1150px;
+        top: -851px;
+    }
